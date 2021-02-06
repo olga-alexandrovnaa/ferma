@@ -16,9 +16,10 @@ class App extends React.Component {
       user: null,
       products: [],
     };
+    this.getProducts();
   }
 
-  getUser = async ({ email, password }) => {
+  async getUser({ email, password }) {
     return fetch('http://localhost:7070/api/login',{
       method: 'POST',
       headers: { 'Content-Type': 'Application/JSON' },
@@ -36,8 +37,16 @@ class App extends React.Component {
     });
   };
 
-  getProducts = async () => { return fetch('http://localhost:7070/api/products',{ method: 'GET', headers: { 'Content-Type': 'Application/JSON' }})
-  .then((res) => res.json())};
+  async getProducts() {
+    return fetch(
+      'http://localhost:7070/api/products',
+      {
+        method: 'GET',
+        headers: { 'Content-Type': 'Application/JSON' },
+      },
+    ).then((res) => res.json())
+    .then((products) => this.setState({ ...this.state, products }));
+  }
 
   onProductsHandler = async () => {
     const products = await this.getProducts();
@@ -45,7 +54,7 @@ class App extends React.Component {
     //for(let i=0; i<products.lenght; i++){
       //console.log(`Name: ${products[i].name}`);
     //}
-    this.setState({ ...this.products, products });
+    this.setState({ ...this.state, products });
   };
 
   onLoginHandler = async (data) => {
@@ -56,7 +65,6 @@ class App extends React.Component {
   };
 
   render() {
-    this.onProductsHandler();
     return (
       <BrowserRouter>
         <Switch>
@@ -65,7 +73,7 @@ class App extends React.Component {
             { this.state.user && <Admin products={this.state.products} /> }
           </Route>
           <Route path="/">
-          {<Client products={this.state.products}></Client>}
+            <Client products={this.state.products} />
           </Route>
           
         </Switch>
@@ -74,6 +82,7 @@ class App extends React.Component {
   }
 
 }
+
 ReactDOM.render(<App />, document.getElementById("react-root"));
 export default App;
 
