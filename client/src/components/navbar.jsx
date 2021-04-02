@@ -17,7 +17,7 @@ function Navbar() {
                             </div>
                             <img className = "w-screen" src="images/Line 4.png" alt=""/>
                             <div className="flex justify-center">
-                                <li className = "list-none " data-menuanchor="block1"><a href="#sectionOne">Главная</a></li>
+                                <li className = "  list-none " data-menuanchor="block1"><a href="#sectionOne">Главная</a></li>
                                 <li className = "list-none ml-40" data-menuanchor="block5"><a href="#section5">О нас</a></li>
                                 <li className = "list-none ml-40" data-menuanchor="block6"><a href="#section6">Корзина</a></li>
                                 <li className = "list-none ml-40" data-menuanchor="block7"><a href="#section7">Доставка</a></li>
