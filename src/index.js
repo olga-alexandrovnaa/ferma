@@ -20,7 +20,7 @@ class App extends React.Component {
   }
 
   async getUser({ email, password }) {
-    return fetch('https://floating-taiga-00115/api/login',{
+    return fetch('https://floating-taiga-00115.herokuapp.com/api/login',{
       method: 'POST',
       headers: { 'Content-Type': 'Application/JSON' },
       body: JSON.stringify({ email, password }),
@@ -39,7 +39,7 @@ class App extends React.Component {
 
   async getProducts() {
     return fetch(
-      'https://floating-taiga-00115/api/products',
+      'https://floating-taiga-00115.herokuapp.com/api/products',
       {
         method: 'GET',
         headers: { 'Content-Type': 'Application/JSON' },
