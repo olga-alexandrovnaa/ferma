@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/ferma/static/js/main.d7b79e37.chunk.js",
+    "main.js.map": "/ferma/static/js/main.d7b79e37.chunk.js.map",
+    "runtime-main.js": "/ferma/static/js/runtime-main.1b96c7d2.js",
+    "runtime-main.js.map": "/ferma/static/js/runtime-main.1b96c7d2.js.map",
+    "static/js/2.74e9266f.chunk.js": "/ferma/static/js/2.74e9266f.chunk.js",
+    "static/js/2.74e9266f.chunk.js.map": "/ferma/static/js/2.74e9266f.chunk.js.map",
+    "index.html": "/ferma/index.html",
+    "precache-manifest.d1cad11f352489030f1891f8e987b00f.js": "/ferma/precache-manifest.d1cad11f352489030f1891f8e987b00f.js",
+    "service-worker.js": "/ferma/service-worker.js",
+    "static/js/2.74e9266f.chunk.js.LICENSE.txt": "/ferma/static/js/2.74e9266f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b96c7d2.js",
+    "static/js/2.74e9266f.chunk.js",
+    "static/js/main.d7b79e37.chunk.js"
+  ]
+}
