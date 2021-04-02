@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ferma/static/js/main.d53d7f01.chunk.js",
-    "main.js.map": "/ferma/static/js/main.d53d7f01.chunk.js.map",
+    "main.js": "/ferma/static/js/main.5ea74cde.chunk.js",
+    "main.js.map": "/ferma/static/js/main.5ea74cde.chunk.js.map",
     "runtime-main.js": "/ferma/static/js/runtime-main.1b96c7d2.js",
     "runtime-main.js.map": "/ferma/static/js/runtime-main.1b96c7d2.js.map",
     "static/js/2.a2c02309.chunk.js": "/ferma/static/js/2.a2c02309.chunk.js",
     "static/js/2.a2c02309.chunk.js.map": "/ferma/static/js/2.a2c02309.chunk.js.map",
     "index.html": "/ferma/index.html",
-    "precache-manifest.e5495da85868346906d191bcfdea8527.js": "/ferma/precache-manifest.e5495da85868346906d191bcfdea8527.js",
+    "precache-manifest.60bce98b289ac249267eda6d21d535f8.js": "/ferma/precache-manifest.60bce98b289ac249267eda6d21d535f8.js",
     "service-worker.js": "/ferma/service-worker.js",
     "static/js/2.a2c02309.chunk.js.LICENSE.txt": "/ferma/static/js/2.a2c02309.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1b96c7d2.js",
     "static/js/2.a2c02309.chunk.js",
-    "static/js/main.d53d7f01.chunk.js"
+    "static/js/main.5ea74cde.chunk.js"
   ]
 }

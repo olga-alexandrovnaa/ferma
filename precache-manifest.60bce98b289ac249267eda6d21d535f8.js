@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18c0f40ecb8f382b9ca01d37eef6ee45",
+    "revision": "d4284e3d04caca793bf6623307d5cc35",
     "url": "/ferma/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ferma/static/js/2.a2c02309.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa45c12ab7a4726d7f2d",
-    "url": "/ferma/static/js/main.d53d7f01.chunk.js"
+    "revision": "4d50237a9c10064cb287",
+    "url": "/ferma/static/js/main.5ea74cde.chunk.js"
   },
   {
     "revision": "53a494d7a4e57e051020",
